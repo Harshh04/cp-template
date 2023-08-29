@@ -7,7 +7,6 @@ using namespace std;
     ios::sync_with_stdio(0); \
     cin.tie(0);              \
     cout.tie(0);
-#define ln "\n"
 #define ll long long
 #define vint vector<int>
 #define vll vector<long long>
