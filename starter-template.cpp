@@ -8,6 +8,7 @@ using namespace std;
     cin.tie(0);              \
     cout.tie(0);
 #define ll long long
+#define int long long
 #define vint vector<int>
 #define vll vector<long long>
 #define v(x) vector<x>
