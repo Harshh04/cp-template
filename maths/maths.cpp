@@ -92,8 +92,27 @@
 //         return n < r ? 0 : (fact[n] * inv(fact[n - r] * fact[r])) % MOD;
 //     }
 
-        // bool isInt(double n, double T = 1e-10) {
-        //     if (abs(n) > 1e9) return false;
-        //     return abs(n - round(n)) < T;
-        // }
+// bool isInt(double n, double T = 1e-10) {
+//     if (abs(n) > 1e9) return false;
+//     return abs(n - round(n)) < T;
+// }
 // };
+
+// seive of eratosthenes
+//  vector<bool> seive(int n)
+//  {
+//      vector<int> primes;
+//      vector<bool> isPrime(n + 1, true);
+//      isPrime[0] = isPrime[1] = false;
+//      for (int i = 2; i * i <= n; i++)
+//      {
+//          if (isPrime[i])
+//          {
+//             for (int j = i * i; j <= n; j += i)
+//             {
+//                 isPrime[j] = false;
+//             }
+//         }
+//     }
+//     return isPrime;
+// }
